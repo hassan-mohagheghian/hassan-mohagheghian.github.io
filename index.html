@@ -4,34 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hassan Mohagheghian Resume Portfolio</title>
+  <title>Hassan Mohagheghian Resume, Portfolio, CV</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-clifford: #da373d;
+    }
+    .stack-item {
+      margin-left: 20px;
+      border:1px black solid;
+      padding: 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="flex justify-center items-center h-screen px-10">
-    <div class="max-w-screen-lg" style="font-size: 24px;">
+  <div class="pt-15 px-15 justify-center text-2xl max-w-4xl mx-auto">
+    <div class="summary">
       <h1> Hi there 👋 </h1>
+      <b>Hassan Mohagheghian</b>,
       <p>
-        I'm <b>Hassan Mohagheghian</b>, a software developer engineer with eight years experience, previous full stack
-        and currently back-end developer.
-        I went step by step and took good steps in both programming and product development. In programming, I have gone
-        from a simple function to design and architecture patterns, and in product development, I have collaborated in
-        the development of products in various fields, from the field of IT to the business of selling store products.
-        I have been working with Python and Javascript and collaborated on multiple project from tiny to big scales.
-        Currently I'm continuing to my journey in software development with Django and FasAPI in Web layer and learning
-        more about data layer. Also, Rust is popular.
+        Software Engineer with 8+ years of experience building scalable systems and modernizing legacy platforms. Proven
+        record improving performance, reducing errors, and driving revenue. Skilled in Python, Django,
+        PostgreSQL, Docker, CI/CD, and microservices. Open to remote roles or on-sites work in Europe.
       </p>
       <p>
-        Feel free to reach me with <b><a href="mailto:mohagheghian.hassan.cs@gmail.com"
+        Feel free to reach me with <b><a href="mailto:hassan.mohagheghian.cs@gmail.com"
             style="text-decoration: underline;">Email</a></b> and <b><a
             href="https://www.linkedin.com/in/hassan-mohagheghian/" style="text-decoration: underline;">LinkedIn</a></b>
+
       </p>
       <p>
         Have a nice time!
       </p>
     </div>
+
+    <div class="stack justify-center">
+      <hr / class="mt-8">
+      <h1 class="justify-center text-center">Stack</h1>
+      <hr / class="mb-4">
+      <div id="stack-items" class="flex justify-center">
+        <div class="stack-item">
+          <h2>Frontend:</h2>
+          <ul class="list-disc list-inside">
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>TailwindCSS</li>
+          </ul>
+        </div>
+        <div class="stack-item">
+          <h2>Backend:</h2>
+          <ul class="list-disc list-inside">
+            <li>Python</li>
+            <li>Django</li>
+            <li>FastAPI</li>
+          </ul>
+        </div>
+        <div class="stack-item">
+          <h2>Database:</h2>
+          <ul class="list-disc list-inside">
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="stack-item">
+          <h2>System:</h2>
+          <ul class="list-disc list-inside">
+            <li>Rust</li>
+            <li>Linux</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 </body>
 
